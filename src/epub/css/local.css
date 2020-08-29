@@ -113,7 +113,7 @@ section[epub|type~="dedication"] > *{
 	}
 }
 
-@media(min-width: 25em){
+@media(min-width:25em){
 	#dedication p:nth-of-type(7){
 		text-indent: 6em;
 	}
