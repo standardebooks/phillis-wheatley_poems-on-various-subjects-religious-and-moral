@@ -23,8 +23,8 @@
 	</style>
 	<image height="2100" width="1400" x="0" y="0" xlink:href="cover.jpg"/>
 	<path class="title-box" d="M 50,1620 1350,1620 1350,2050 50,2050 Z"/>
-	<text class="title-xsmall" x="700" y="1740">POEMS</text>
-	<text class="title-xsmall" x="700" y="1810">ON VARIOUS SUBJECTS,</text>
-	<text class="title-xsmall" x="700" y="1880">RELIGIOUS AND MORAL</text>
+	<text class="title-xsmall" x="700" y="1740">POEMS ON VARIOUS</text>
+	<text class="title-xsmall" x="700" y="1810">SUBJECTS, RELIGIOUS</text>
+	<text class="title-xsmall" x="700" y="1880">AND MORAL</text>
 	<text class="author" x="700" y="1980">PHILLIS WHEATLEY</text>
 </svg>
