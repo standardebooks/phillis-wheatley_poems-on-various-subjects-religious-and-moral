@@ -73,6 +73,10 @@ section[epub|type~="dedication"] > *{
 	}
 }
 
+[epub|type~="dedication"] p{
+	text-indent: 0;
+}
+
 [epub|type~="z3998:letter"] header{
 	text-align: right;
 }
@@ -100,4 +104,25 @@ section[epub|type~="dedication"] > *{
 
 [epub|type~="z3998:poem"] footer > p{
 	text-align: right;
+}
+
+@supports(display: flex){
+	#dedication footer{
+		align-self: flex-end;
+		margin-top: 1em;
+	}
+}
+
+@media(min-width: 25em){
+	#dedication p:nth-of-type(7){
+		text-indent: 6em;
+	}
+
+	#dedication p:nth-of-type(8){
+		text-indent: 4em;
+	}
+
+	#dedication p:nth-of-type(9){
+		text-indent: 9em;
+	}
 }
