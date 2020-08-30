@@ -36,9 +36,12 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85004382</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Phillis Wheatley’s only published collection of poetry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Poems on Various Subjects, Religious and Moral&lt;/i&gt; was the first book of poetry ever published by an African-American author. &lt;a href="https://standardebooks.org/ebooks/phillis-wheatley"&gt;Phillis Wheatley’s&lt;/a&gt; deep familiarity with Latin literature and Christianity, combined with her African ancestry provided her with a unique and inimitable view of poetry.&lt;/p&gt;
+			&lt;p&gt;She was kidnapped and brought over to America on a ship called &lt;i&gt;The Phillis&lt;/i&gt; after which she was named. Her interest in poetry and literature was recognized by the Wheatley family who, though keeping her enslaved, provided her with classic works of literature by authors such as Virgil, &lt;a href="https://standardebooks.org/ebooks/homer"&gt;Homer&lt;/a&gt;, Terence, and Pope, all of whom had a significant influence on her work.&lt;/p&gt;
+			&lt;p&gt;She received praise from many of her contemporaries including George Washington, John Hancock, and &lt;a href="https://standardebooks.org/ebooks/voltaire"&gt;Voltaire&lt;/a&gt;. Shortly after publishing her collection of poetry she was emancipated by the Wheatley family. Even so, her life ended in poverty and obscurity.&lt;/p&gt;
+			&lt;p&gt;Though her influence on poetry and African-American literature is indisputable, more modern critics of her work point to the lack of censure of slavery and the absence of discussion about the lives of black people in the United States as an example of the Uncle Tom syndrome.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/409</dc:source>
@@ -49,7 +52,6 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/phillis-wheatley_poems-on-various-subjects-religious-and-moral</meta>
 		<dc:creator id="author">Phillis Wheatley</dc:creator>
 		<meta property="file-as" refines="#author">Wheatley, Phillis</meta>
-		<meta property="se:name.person.full-name" refines="#author">Phillis Wheatle</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Phillis_Wheatley</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50016726</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -58,7 +60,7 @@
 		<dc:contributor id="artist">Winslow Homer</dc:contributor>
 		<meta property="file-as" refines="#artist">Homer, Winslow</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Winslow_Homer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79023170.html</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79023170</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Judith Boss</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Boss, Judith</meta>
