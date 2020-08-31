@@ -69,7 +69,8 @@ section[epub|type~="dedication"] > *{
 	}
 }
 
-[epub|type~="dedication"] p{
+[epub|type~="dedication"] > p{
+	text-align: center;
 	text-indent: 0;
 }
 
@@ -92,16 +93,19 @@ section[epub|type~="dedication"] > *{
 	}
 }
 
-@media(min-width:25em){
-	#dedication p:nth-of-type(7){
+@media(min-width: 25em){
+	#dedication > p > span:nth-of-type(1){
+		display: inline-block;
 		text-indent: 6em;
 	}
 
-	#dedication p:nth-of-type(8){
+	#dedication > p > span:nth-of-type(2){
+		display: inline-block;
 		text-indent: 4em;
 	}
 
-	#dedication p:nth-of-type(9){
+	#dedication > p > span:nth-of-type(3){
+		display: inline-block;
 		text-indent: 9em;
 	}
 }
