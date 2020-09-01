@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/phillis-wheatley/poems-on-various-subjects-religious-and-moral</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-09-01T01:06:52Z</dc:date>
+		<meta property="dcterms:modified">2020-09-01T01:06:52Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,7 +38,7 @@
 		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">Phillis Wheatley’s only published collection of poetry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Poems on Various Subjects, Religious and Moral&lt;/i&gt; was the first book of poetry ever published by an African-American author. &lt;a href="https://standardebooks.org/ebooks/phillis-wheatley"&gt;Phillis Wheatley’s&lt;/a&gt; deep familiarity with Latin literature and Christianity, combined with her African ancestry provided her with a unique and inimitable view of poetry.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Poems on Various Subjects, Religious and Moral&lt;/i&gt; was the first book of poetry ever published by an African-American author. &lt;a href="https://standardebooks.org/ebooks/phillis-wheatley"&gt;Phillis Wheatley’s&lt;/a&gt; deep familiarity with Latin literature and Christianity, combined with her African ancestry, provided her with a unique and inimitable view of poetry.&lt;/p&gt;
 			&lt;p&gt;She was kidnapped and brought over to America on a ship called &lt;i&gt;The Phillis&lt;/i&gt; after which she was named. Her interest in poetry and literature was recognized by the Wheatley family who, though keeping her enslaved, provided her with classic works of literature by authors such as Virgil, &lt;a href="https://standardebooks.org/ebooks/homer"&gt;Homer&lt;/a&gt;, Terence, and Pope, all of whom had a significant influence on her work.&lt;/p&gt;
 			&lt;p&gt;She received praise from many of her contemporaries including George Washington, John Hancock, and &lt;a href="https://standardebooks.org/ebooks/voltaire"&gt;Voltaire&lt;/a&gt;. Shortly after publishing her collection of poetry she was emancipated by the Wheatley family. Even so, her life ended in poverty and obscurity.&lt;/p&gt;
 			&lt;p&gt;Though her influence on poetry and African-American literature is indisputable, more modern critics of her work point to the lack of censure of slavery and the absence of discussion about the lives of black people in the United States as an example of the Uncle Tom syndrome.&lt;/p&gt;
@@ -46,8 +46,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/409</dc:source>
 		<meta property="se:production-notes">All italics for this production were removed under the assumption that they were additions made by the publisher, not the author. Look to the mailing list for more information.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">14721</meta>
+		<meta property="se:reading-ease.flesch">72.5</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Poems_on_Various_Subjects,_Religious_and_Moral</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/phillis-wheatley_poems-on-various-subjects-religious-and-moral</meta>
 		<dc:creator id="author">Phillis Wheatley</dc:creator>
@@ -73,6 +73,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
