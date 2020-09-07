@@ -30,11 +30,6 @@ p span.i2{
 	padding-left: 3em;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 header{
 	font-variant: small-caps;
 	margin: 1em;
