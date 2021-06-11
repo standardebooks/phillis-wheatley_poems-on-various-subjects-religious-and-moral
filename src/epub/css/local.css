@@ -89,7 +89,7 @@ section[epub|type~="dedication"] > footer{
 	}
 }
 
-@media(min-width:25em){
+@media(min-width: 25em){
 	#dedication > p > span:nth-of-type(1){
 		display: inline-block;
 		text-indent: 6em;
