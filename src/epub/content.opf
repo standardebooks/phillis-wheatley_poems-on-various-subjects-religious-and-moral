@@ -35,6 +35,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85004382</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">Phillis Wheatley’s only published collection of poetry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Poems on Various Subjects, Religious and Moral&lt;/i&gt; was the first book of poetry ever published by an African-American author. &lt;a href="https://standardebooks.org/ebooks/phillis-wheatley"&gt;Phillis Wheatley’s&lt;/a&gt; deep familiarity with Latin literature and Christianity, combined with her African ancestry, provided her with a unique and inimitable view of poetry.&lt;/p&gt;
