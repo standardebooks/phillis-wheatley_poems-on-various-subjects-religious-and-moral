@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 540">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 640">
 	<title>The titlepage for the Standard Ebooks edition of Poems on Various Subjects, Religious and Moral, by Phillis Wheatley</title>
 	<style type="text/css">
 		text{
@@ -16,8 +16,9 @@
 			font-size: 70.17543793px;
 		}
 	</style>
-	<text class="title" x="700" y="130">POEMS ON VARIOUS</text>
-	<text class="title" x="700" y="230">SUBJECTS, RELIGIOUS</text>
-	<text class="title" x="700" y="330">AND MORAL</text>
-	<text class="author" x="700" y="490">PHILLIS WHEATLEY</text>
+	<text class="title" x="700" y="130">POEMS ON</text>
+	<text class="title" x="700" y="230">VARIOUS SUBJECTS,</text>
+	<text class="title" x="700" y="330">RELIGIOUS</text>
+	<text class="title" x="700" y="430">AND MORAL</text>
+	<text class="author" x="700" y="590">PHILLIS WHEATLEY</text>
 </svg>
