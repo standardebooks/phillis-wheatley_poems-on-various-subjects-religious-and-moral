@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/phillis-wheatley/poems-on-various-subjects-religious-and-moral</dc:identifier>
 		<dc:date>2020-09-01T01:06:52Z</dc:date>
 		<meta property="dcterms:modified">2020-09-01T01:06:52Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,8 +36,8 @@
 		<meta property="term" refines="#subject-1">sh85004389</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85004382</meta>
-		<meta property="se:subject">Poetry</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Poetry</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">Phillis Wheatley’s only published collection of poetry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Poems on Various Subjects, Religious and Moral&lt;/i&gt; was the first book of poetry ever published by an African-American author. &lt;a href="https://standardebooks.org/ebooks/phillis-wheatley"&gt;Phillis Wheatley’s&lt;/a&gt; deep familiarity with Latin literature and Christianity, combined with her African ancestry, provided her with a unique and inimitable view of poetry.&lt;/p&gt;
@@ -48,15 +49,16 @@
 		<dc:source>https://www.gutenberg.org/ebooks/409</dc:source>
 		<dc:source>https://archive.org/details/poemsonvarioussu273whea</dc:source>
 		<dc:source>https://archive.org/details/poemsofphilliswh00whea_1</dc:source>
-		<meta property="se:production-notes">All italics for this production were removed under the assumption that they were additions made by the publisher, not the author. Look to the mailing list for more information.</meta>
-		<meta property="se:word-count">13967</meta>
-		<meta property="se:reading-ease.flesch">72.6</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Poems_on_Various_Subjects,_Religious_and_Moral</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/phillis-wheatley_poems-on-various-subjects-religious-and-moral</meta>
+		<meta property="schema:wordCount">13967</meta>
+		<meta property="schema:educationalLevel">72.6</meta>
+		<link href="https://en.wikipedia.org/wiki/Poems_on_Various_Subjects,_Religious_and_Moral" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/phillis-wheatley_poems-on-various-subjects-religious-and-moral" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Phillis Wheatley</dc:creator>
 		<meta property="file-as" refines="#author">Wheatley, Phillis</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Phillis_Wheatley</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50016726</meta>
+		<link href="https://en.wikipedia.org/wiki/Phillis_Wheatley" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50016726.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
@@ -66,8 +68,8 @@
 		<meta property="role" refines="#writer-of-foreword" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Winslow Homer</dc:contributor>
 		<meta property="file-as" refines="#artist">Homer, Winslow</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Winslow_Homer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79023170</meta>
+		<link href="https://en.wikipedia.org/wiki/Winslow_Homer" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79023170.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Judith Boss</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Boss, Judith</meta>
@@ -82,7 +84,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
