@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/phillis-wheatley/poems-on-various-subjects-religious-and-moral</dc:identifier>
 		<dc:date>2020-09-01T01:06:52Z</dc:date>
@@ -38,13 +38,13 @@
 		<meta property="term" refines="#subject-2">sh85004382</meta>
 		<meta property="schema:genre">Poetry</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:description id="description">Phillis Wheatley’s only published collection of poetry.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Phillis Wheatley’s only published collection of poetry.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Poems on Various Subjects, Religious and Moral&lt;/i&gt; was the first book of poetry ever published by an African-American author. &lt;a href="https://standardebooks.org/ebooks/phillis-wheatley"&gt;Phillis Wheatley’s&lt;/a&gt; deep familiarity with Latin literature and Christianity, combined with her African ancestry, provided her with a unique and inimitable view of poetry.&lt;/p&gt;
 			&lt;p&gt;She was kidnapped and brought over to America on a ship called &lt;i&gt;The Phillis&lt;/i&gt; after which she was named. Her interest in poetry and literature was recognized by the Wheatley family who, though keeping her enslaved, provided her with classic works of literature by authors such as Virgil, &lt;a href="https://standardebooks.org/ebooks/homer"&gt;Homer&lt;/a&gt;, Terence, and Pope, all of whom had a significant influence on her work.&lt;/p&gt;
 			&lt;p&gt;She received praise from many of her contemporaries including George Washington, John Hancock, and &lt;a href="https://standardebooks.org/ebooks/voltaire"&gt;Voltaire&lt;/a&gt;. Shortly after publishing her collection of poetry she was emancipated by the Wheatley family. Even so, her life ended in poverty and obscurity.&lt;/p&gt;
 			&lt;p&gt;Though her influence on poetry and African-American literature is indisputable, more modern critics of her work point to the lack of censure of slavery and the absence of discussion about the lives of black people in the United States as an example of the Uncle Tom syndrome.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/409</dc:source>
 		<dc:source>https://archive.org/details/poemsonvarioussu273whea</dc:source>
