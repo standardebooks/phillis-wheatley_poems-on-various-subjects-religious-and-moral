@@ -30,7 +30,7 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Poems on Various Subjects, Religious and Moral</dc:title>
 		<meta property="file-as" refines="#title">Poems on Various Subjects, Religious and Moral</meta>
-		<dc:subject id="subject-1">American poetry -- African American authors</dc:subject>
+		<dc:subject id="subject-1">American poetry--African American authors</dc:subject>
 		<dc:subject id="subject-2">American poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85004389</meta>
