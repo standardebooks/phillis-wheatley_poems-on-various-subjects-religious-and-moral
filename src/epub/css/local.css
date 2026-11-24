@@ -54,7 +54,7 @@ section[epub|type~="dedication"] > footer{
 	margin-top: 1em; /* override dedication styling */
 }
 
-@supports(display: flex){
+@supports(display: flex) and (min-height: calc(98vh - 3em)){
 	section[epub|type~="dedication"]{
 		align-items: center;
 		box-sizing: border-box;
